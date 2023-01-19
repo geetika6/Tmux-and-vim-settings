@@ -32,19 +32,19 @@ echo "DISPLAY=${DISPLAY}"
 unset dispvar
 
 **TODO :**
-# VIM/NVIM, NVIM recommended over VIM
-# -----------------------------------------------------------------
-# copy over these files:-
+ VIM/NVIM, NVIM recommended over VIM
+#-----------------------------------------------------------------
+#copy over these files:-
 $HOME/.vimrc
-# base16 colourschemes available, use picker from http://chriskempson.com/projects/base16/
+#base16 colourschemes available, use picker from http://chriskempson.com/projects/base16/
 $HOME/.vim/colors/*
 $HOME/.vim/autoload/plug.vim
 $HOME/.config/nvim/init.vim
-# link to latest installed nvim version
+#link to latest installed nvim version
 ln -s /tool/pandora64/.package/nvim-0.5.0/bin/nvim $HOME/bin/
-# to install plug-ins, open nvim, run :PlugInstall
-# If you do not like any of these, comment them out in .vimrc before running :PlugInstall
-# Plugins in my .vimrc are crystalline, nvim-telescope, NERDTree, vim-perforce.
+#to install plug-ins, open nvim, run :PlugInstall
+#If you do not like any of these, comment them out in .vimrc before running :PlugInstall
+#Plugins in my .vimrc are crystalline, nvim-telescope, NERDTree, vim-perforce.
 
 
 
