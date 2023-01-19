@@ -1,4 +1,4 @@
-# Tmux-and-vim-settings
+**#Tmux-and-vim-settings**
 New environment settings
 This shows my commonly used .vimrc and tmux settings
 Used some of the settings from :
@@ -6,17 +6,18 @@ https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 
 some are from :
 
-# This configuration was originally from https://github.com/gpakosz/.tmux
-# copy over these files:-
+#This configuration was originally from https://github.com/gpakosz/.tmux
+
+#copy over these files:-
 $HOME/.tmux.conf
 $HOME/.tmux.conf.local
 
-Still to do the below :
-# do not use the default version, link to tmux 3.0a instead
+**Still to do the below :**
+#do not use the default version, link to tmux 3.0a instead
 ln -s /tool/pandora64/.package/tmux-3.0a/bin/tmux $HOME/bin/
 
 
-Open tmux using :
+**Open tmux using :**
 tmux -u new -s gee1
 and to attach to this session
  tmux -u a -t gee1
