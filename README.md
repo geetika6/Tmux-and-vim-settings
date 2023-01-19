@@ -13,18 +13,24 @@ $HOME/.tmux.conf
 $HOME/.tmux.conf.local
 
 **Still to do the below :**
+
+
 #do not use the default version, link to tmux 3.0a instead
 ln -s /tool/pandora64/.package/tmux-3.0a/bin/tmux $HOME/bin/
 
 
 **Open tmux using :**
+
+
 tmux -u new -s gee1
 and to attach to this session
  tmux -u a -t gee1
  
- --since the tmux version is not yet tmux 3 in my local , i am using tmux 2
+since the tmux version is not yet tmux 3 in my local , i am using tmux 2
  
- --There is another setting needed for the display setting:
+There is another setting needed for the display setting:
+
+
 set_display.csh:
 set dispvar =  `ps aux | grep $USER | grep graphon/bin/Xgo | awk -F ":" '{print $4}'| awk '{print $1}'`
 setenv DISPLAY "${HOST}:${dispvar}"
