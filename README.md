@@ -28,10 +28,12 @@ and to attach to this session
  
 since the tmux version is not yet tmux 3 in my local , i am using tmux 2
  
-There is another setting needed for the display setting:
+**There is another setting needed for the display setting:**
 
 
 set_display.csh:
+
+
 set dispvar =  `ps aux | grep $USER | grep graphon/bin/Xgo | awk -F ":" '{print $4}'| awk '{print $1}'`
 setenv DISPLAY "${HOST}:${dispvar}"
 echo "DISPLAY=${DISPLAY}"
