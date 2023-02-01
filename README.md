@@ -26,6 +26,9 @@ tmux -u new -s gee1
 and to attach to this session
  tmux -u a -t gee1
  
+ another user to the same session:
+tmux -u new -s gee2 -t gee1
+ 
 since the tmux version is not yet tmux 3 in my local , i am using tmux 2
  
 **There is another setting needed for the display setting:**
